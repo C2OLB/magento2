@@ -1,0 +1,9 @@
+<h1>My form</h1>
+
+<form class="form" action="<?= $block->getUrl('Magento2OrderModule/Demonstration/Index'); ?>" method="post">
+   <div class="control">
+    <?=$block->getFormKey() ?>
+    <input type="text" id="order_name" name="order_name">
+   </div>
+    <input type="submit" value="Go">
+</form>
